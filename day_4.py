@@ -79,7 +79,7 @@ def credentials_checker(filename, required_credentials_list, optional_credential
 
     """
 
-#print(get_credentials_list("day_4.txt"))
+print(get_credentials_list("day_4.txt"))
 
 required_credentials_list = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"]
 optional_credentials_list = ["cid"]
